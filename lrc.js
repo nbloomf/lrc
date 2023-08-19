@@ -806,3 +806,5 @@ function createElementWithAttrs( tag, ts, txt ) {
   if ( txt ) { e.innerHTML = txt; }
   return e;
 }
+
+rateCalc.init();
